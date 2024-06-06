@@ -1,0 +1,8 @@
+@media (max-width:600px) {
+
+#Hero_h1{
+    width: 90vw;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+}
+}
