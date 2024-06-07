@@ -2,7 +2,7 @@
 // import React from 'react'; 
 
 
-import Logo from './assets/Zap.jpg';
+import Logo from '../assets/Zap.jpg';
 import './Header.css';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
@@ -16,7 +16,11 @@ function Header() {
         whileInView={{ opacity: 1, y: 0 }}
         className="mainHeader"
       >
-        <img src={Logo} alt="Logo" />
+      <Link to="/">
+
+       <img src={Logo} alt="Logo" />
+      </Link>
+      
       </motion.div>
 
       <motion.div

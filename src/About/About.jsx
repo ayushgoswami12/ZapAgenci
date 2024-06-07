@@ -1,4 +1,5 @@
-import Header from "../Header"
+import Header from "../HomePage/Header"
+
 
 
 function About() {
@@ -7,7 +8,7 @@ function About() {
 
     <div>
    <Header></Header>
-      ANyhting stuff 
+   This is About Page
     </div>
     </>
   )

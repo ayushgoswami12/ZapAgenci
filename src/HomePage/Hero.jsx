@@ -1,4 +1,4 @@
-import HeroLogo from "./assets/hero.jpg"
+import HeroLogo from "../assets/hero.jpg"
 import { motion } from "framer-motion"
 import './Header.css';
 
