@@ -1,14 +1,19 @@
 // import React from 'react'
 import Header from "./Header.jsx"
 import Hero from "./Hero.jsx"
-import { Outlet } from "react-router-dom"
+import Services from "./Services.jsx"
+
 function HomePage() {
   return (
-    <div>
+    <>
+
+    <div className="mainPage">
       <Header></Header>
       <Hero></Hero>
-      <Outlet></Outlet>
     </div>
+    <Services></Services>
+    </>
+
   )
 }
 

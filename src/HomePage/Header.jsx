@@ -11,9 +11,9 @@ function Header() {
   return (
     <div className="header">
       <motion.div
-        initial={{ opacity: 0, y: -50 }}
+       initial={{ opacity: 0, x: -10 }}
         transition={{ duration: 1.5, delay: 0.1 }}
-        whileInView={{ opacity: 1, y: 0 }}
+        whileInView={{ opacity: 1, x: 0 }}
         className="mainHeader"
       >
       <Link to="/">
@@ -24,9 +24,9 @@ function Header() {
       </motion.div>
 
       <motion.div
-        initial={{ opacity: 0, x: 150 }}
-        transition={{ duration: 1.5 }}
-        whileInView={{ opacity: 1, x: 0 }}
+ initial={{ opacity: 0, y: -50 }}
+        transition={{ duration: 1.5, delay: 0.1 }}
+        whileInView={{ opacity: 1, y: 0 }}
         className="intro"
       >
         <ul>

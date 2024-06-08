@@ -1,0 +1,74 @@
+.ServicePageHeading{
+font-size: 5vw;
+font-weight: 700;
+text-decoration: underline;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.mainService{
+    background-color: white;
+    color: black;
+}
+.ProvidedServices {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    /* width: 100vw; */
+    justify-content: space-around;
+    
+}
+.ServiceDetail{
+    gap: 5px;
+    display: flex;
+    margin: 15px;
+    padding: 15px;
+    
+    width: 25vw;
+    height: fit-content;
+    flex-direction: column;
+}
+.ServiceDetail img{
+   width:25vw ;
+}
+.propteries{
+    width: 25vw;
+}
+.propteries1{
+    width: 25vw;
+    text-wrap: wrap;
+}
+#headingprops{
+font-weight: bolder;
+font-size: x-large;
+color: rgb(225, 13, 98);
+
+}
+
+@media (max-width:600px) {
+.ServicePageHeading{
+    display: flex;
+    }
+
+.ServiceDetail{
+    display: flex;
+    flex-wrap: wrap;
+    width:70vw;
+}
+.ServiceDetail img{
+   height: 30vh;
+   width: fit-content;
+}
+.propteries{
+    width: 55vw;
+}
+.propteries1{
+    width: 55vw;
+    text-wrap: wrap;
+}
+
+
+
+    }
