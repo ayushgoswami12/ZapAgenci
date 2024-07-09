@@ -6,13 +6,23 @@
     display: flex;
 
 }
-@media (max-width:600px) {
+@media (max-width:900px) {
 
    .digitial_main{
     display: flex;
     flex-direction: column;
+    align-items:  center;
+    justify-content: center;
+
    }
    .digital-h{
-    width: 100vw;
+    width: 98vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   }
+   .digital_img{
+    display: flex;
+    flex-direction: column;
    }
     }
