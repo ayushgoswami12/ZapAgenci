@@ -17,6 +17,7 @@
    }
    .digital-h{
     width: 98vw;
+   
     align-items: center;
     justify-content: center;
     display: flex;
@@ -24,5 +25,8 @@
    .digital_img{
     display: flex;
     flex-direction: column;
+   }
+   .paraofdigital{
+    width: 90vw;
    }
     }

@@ -8,11 +8,11 @@ function Digitalmarketing() {
       
       <div className=" digital-h w-[48vw]  justify-center flex flex-col">
 
-        <h1 className="text-2xl text-black font-bold p-2">
+        <h1 className="text-2xl text-black font-bold p-2 paraofdigital">
 
           Why should you use Digital Marketing ?
         </h1>
-        <p className="p-2">
+        <p className="p-2 paraofdigital">
            {/* <p className="text-lg pt-3 m-0 font-bold underline  text-black">Global Reach</p>   */}
            <p className="text-lg pt-3 m-0 font-bold underline  text-black">Global Reach</p> 
 Digital marketing allows your business to reach a global audience effortlessly. Unlike traditional marketing, you can connect with potential customers from different parts of the world with just a few clicks. This expanded reach helps you tap into new markets and grow your brand beyond geographical boundaries.
