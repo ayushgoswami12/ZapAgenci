@@ -1,4 +1,5 @@
 // import React from 'react'
+import Digitalmarketing from "./Digitalmarketing.jsx"
 import Header from "./Header.jsx"
 import Hero from "./Hero.jsx"
 import Services from "./Services.jsx"
@@ -12,6 +13,7 @@ function HomePage() {
       <Hero></Hero>
     </div>
     <Services></Services>
+    <Digitalmarketing></Digitalmarketing>
     </>
 
   )

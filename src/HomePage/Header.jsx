@@ -36,8 +36,8 @@ function Header() {
           <li>
           <Link to={"/About"}>About</Link> 
           </li>
-          <li>  <Link to={"/Contactus"}>Contact us </Link> </li>
           <li> <Link to={"/SignIn"}>Sign In</Link> </li>
+          <li id='cntc'>  <Link to={"/Contactus"}>Contact us </Link> </li>
         </ul>
       </motion.div>
     

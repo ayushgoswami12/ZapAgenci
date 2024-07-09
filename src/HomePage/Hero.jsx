@@ -9,7 +9,7 @@ function Hero() {
     <section className="text-gray-400 bg-black body-font">
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <motion.div
-         initial={{ opacity: 0, x: -50 }}
+         initial={{ opacity: 0, x: -10 }}
         transition={{ duration: 1.5, delay: 0.1 }}
         whileInView={{ opacity: 1, x: 0 }}
          className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">

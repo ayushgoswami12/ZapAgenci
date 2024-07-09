@@ -1,13 +1,21 @@
-.ServicePageHeading{
+.ServicePageHeading h1{
 font-size: 5vw;
 font-weight: 700;
+flex-direction: column;
 text-decoration: underline;
 display: flex;
 justify-content: center;
 align-items: center;
-
+}
+.ServicePageHeading h2{
+font-size:1vw;
+text-decoration: wavy;
+display: flex;
+align-items: center;
+justify-content: center;
 
 }
+
 .mainService{
     background-color: white;
     color: black;
@@ -48,9 +56,13 @@ color: rgb(225, 13, 98);
 }
 
 @media (max-width:600px) {
-.ServicePageHeading{
+.ServicePageHeading h1,h2{
     display: flex;
     }
+
+.ServicePageHeading h2{
+    font-size: 15px;
+}
 
 .ServiceDetail{
     display: flex;

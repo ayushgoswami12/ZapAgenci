@@ -8,6 +8,7 @@ function Error() {
     <div className="error_heading">
       <h1>Oops This is An Error Page </h1>
       <p>Page does not exist , choose where would you like to visit </p>
+      <p>Helloo i m ayush</p>
     </div>
     </>
   )
