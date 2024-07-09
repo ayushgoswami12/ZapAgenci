@@ -1,0 +1,18 @@
+#digital_img{
+    width: 30vw;
+    /* width: 50vw; */
+}
+.digitial_main{
+    display: flex;
+
+}
+@media (max-width:600px) {
+
+   .digitial_main{
+    display: flex;
+    flex-direction: column;
+   }
+   .digital-h{
+    width: 100vw;
+   }
+    }
