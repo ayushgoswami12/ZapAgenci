@@ -4,6 +4,8 @@ import Header from "./Header.jsx"
 import Hero from "./Hero.jsx"
 import Services from "./Services.jsx"
 import "./Hero.css"
+import Testimonials from "./Testimonial.jsx"
+import Footer from "./Footer.jsx"
 
 function HomePage() {
   return (
@@ -18,6 +20,8 @@ function HomePage() {
 
     <Digitalmarketing></Digitalmarketing>
     </div>
+    <Testimonials></Testimonials>
+    <Footer></Footer>
     </>
 
   )

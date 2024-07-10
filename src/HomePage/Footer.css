@@ -1,0 +1,16 @@
+#division{
+    width: 50vw;
+    padding-left: 25px;
+    /* padding: 50px; */
+}
+@media (max-width:600px) {
+   footer{
+    display: flex;
+    flex-direction: column;
+   }
+   #division{
+    width: 90vw;
+    padding-left: 0px;
+    /* padding: 50px; */
+}
+}
