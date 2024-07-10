@@ -32,11 +32,11 @@ const Testimonials = () => {
                                 <p className="text-indigo-500">Senior Product Designer</p>
                             </motion.div>
                         </div>
-                        <motion.div 
-                        initial={{ opacity: 0, x: -10 }}
-        transition={{ duration: 1.5, delay: 0.1 }}
-        whileInView={{ opacity: 1, x: 0 }}
-                        className="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                        <motion.div
+                            initial={{ opacity: 0, x: -10 }}
+                            transition={{ duration: 1.5, delay: 0.1 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            className="lg:w-1/3 lg:mb-0 mb-6 p-4">
                             <div className="h-full text-center">
                                 <img
                                     alt="testimonial"
@@ -52,10 +52,10 @@ const Testimonials = () => {
                             </div>
                         </motion.div>
                         <motion.div
-                        initial={{ opacity: 0, y: 10 }}
-        transition={{ duration: 1.5, delay: 0.1 }}
-        whileInView={{ opacity: 1, y: 0 }}
-                         className="lg:w-1/3 lg:mb-0 p-4">
+                            initial={{ opacity: 0, y: 10 }}
+                            transition={{ duration: 1.5, delay: 0.1 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            className="lg:w-1/3 lg:mb-0 p-4">
                             <div className="h-full text-center">
                                 <img
                                     alt="testimonial"
