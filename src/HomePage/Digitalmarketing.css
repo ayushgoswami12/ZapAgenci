@@ -6,6 +6,9 @@
     display: flex;
 
 }
+.digital-h{
+    padding-left: 50px;
+}
 @media (max-width:900px) {
 
    .digitial_main{

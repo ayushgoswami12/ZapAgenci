@@ -6,9 +6,10 @@ function Error() {
     <>
 <Header></Header>
     <div className="error_heading">
-      <h1>Oops This is An Error Page </h1>
-      <p>Page does not exist , choose where would you like to visit </p>
-      <p>Helloo i m ayush</p>
+      {/* <h1>Oops This is An Error Page </h1> */}
+      <h1 className="text-5xl text-purple-400 font-semibold">404 ERROR </h1>
+
+      <p className="pt-5 text-red-500">This page does not exist yet </p>
     </div>
     </>
   )
