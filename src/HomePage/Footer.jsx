@@ -21,7 +21,7 @@ function Footer() {
     <div >
    <h1 className="text-3xl underline " >Social Media Platforms </h1> 
    <div className="flex m-3 gap-5">
-   <a href="https://www.instagram.com/zap.agenci/?hl=af" target="_blank">
+   <a href="https://www.instagram.com/zap.agenci/" target="_blank">
 
     <img className="hover:cursor-pointer" src={InstaLogo}></img>
    </a>
