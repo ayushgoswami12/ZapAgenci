@@ -1,10 +1,9 @@
 #digital_img{
     width: 30vw;
-    /* width: 50vw; */
+
 }
 .digitial_main{
     display: flex;
-
 }
 .digital-h{
     padding-left: 10px;
