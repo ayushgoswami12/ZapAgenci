@@ -21,7 +21,7 @@ function Services() {
   return (
     <>
       <div className="mainService">
-        <div className="ServicePageHeading">
+        <div className="ServicePageHeading pb-5">
           <h1>Our Services</h1>
           {/* <h2 id="requirement">Click for Service Requirement Below</h2> */}
         </div>
