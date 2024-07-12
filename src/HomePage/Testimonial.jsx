@@ -52,9 +52,9 @@ const Testimonials = () => {
                             </div>
                         </motion.div>
                         <motion.div
-                            initial={{ opacity: 0, y: 10 }}
+initial={{ opacity: 0, x: -10 }}
                             transition={{ duration: 1.5, delay: 0.1 }}
-                            whileInView={{ opacity: 1, y: 0 }}
+                            whileInView={{ opacity: 1, x: 0 }}
                             className="lg:w-1/3 lg:mb-0 p-4">
                             <div className="h-full text-center">
                                 <img

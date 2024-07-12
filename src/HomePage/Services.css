@@ -15,47 +15,59 @@ align-items: center;
 justify-content: center;
 
 }
-
+.servicesPG{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    border: 2px solid pink;
+    border-radius: 5%;
+    width: 30vw;
+}
+.servicesIMG{
+    width: 20vw;
+}
 .mainService{
     background-color: white;
+    padding: 50px;
     color: black;
 }
-.ProvidedServices {
+
+.App {
     display: flex;
-    gap: 5px;
-    flex-wrap: wrap;
-    /* width: 100vw; */
-    justify-content: space-around;
-    
-}
-.ServiceDetail{
-    gap: 5px;
-    display: flex;
-    margin: 15px;
-    padding: 15px;
-    
-    width: 25vw;
-    height: fit-content;
-    flex-direction: column;
-}
-.ServiceDetail img{
-   width:25vw ;
-}
-.propteries{
-    width: 55vw;
-}
-
-.propteries1{
-    width: 25vw;
-    text-wrap: wrap;
-}
-#headingprops{
-font-weight: bolder;
-font-size: x-large;
-color: rgb(225, 13, 98);
-
-}
-
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+  }
+  
+  .box {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .box-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .box-title {
+    font-size: 1.5em;
+    margin: 16px 0;
+  }
+  
+  .box-description {
+    font-size: 1em;
+    padding: 0 16px 16px;
+    color: #555;
+  }
+  
 @media (max-width:600px) {
 .ServicePageHeading h1,h2{
     display: flex;
@@ -74,13 +86,7 @@ color: rgb(225, 13, 98);
    height: 30vh;
    width: fit-content;
 }
-.propteries{
-    width: 55vw;
-}
-.propteries1{
-    width: 55vw;
-    text-wrap: wrap;
-}
+
 
 
 
