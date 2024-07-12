@@ -59,6 +59,8 @@ justify-content: center;
   
   .box-title {
     font-size: 1.5em;
+    text-align: center;
+    display: inline-flex;
     margin: 16px 0;
   }
   

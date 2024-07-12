@@ -29,32 +29,48 @@ function Services() {
         <div className="flex flex-row flex-wrap gap-4 justify-center">
 
 
-          
-      
-       <div className="box">
-      <img src={Social} alt="Description of image" className="box-image" />
-      <h2 className="box-title">Digital Marketing </h2>
-      <p className="box-description">This is a description of the box content. It can be as long or short as you like.</p>
-    </div>
-       <div className="box">
-      <img src={Brochure} alt="Description of image" className="box-image" />
-      <h2 className="box-title">Brochure</h2>
-      <p className="box-description">This is a description of the box content. It can be as long or short as you like.</p>
-    </div>
-       <div className="box">
-      <img src={Discount} alt="Description of image" className="box-image" />
-      <h2 className="box-title">Discount</h2>
-      <p className="box-description">This is a description of the box content. It can be as long or short as you like.</p>
-    </div>
-    <div className="box">
-      <img src={Sales} alt="Description of image" className="box-image" />
-      <h2 className="box-title">Sales Management</h2>
-      <p className="box-description">This is a description of the box content. It can be as long or short as you like.</p>
-    </div>
+
+
+          <motion.div
+            initial={{ opacity: 0, x: -10 }}
+            transition={{ duration: 1.5, delay: 0.1 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            className="box">
+            <img src={Social} alt="Description of image" className="box-image" />
+            <h2 className="box-title">Digital Marketing </h2>
+            <p className="box-description">This is a description of the box content. It can be as long or short as you like.</p>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, x: -10 }}
+            transition={{ duration: 1.5, delay: 0.1 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            className="box">
+            <img src={Brochure} alt="Description of image" className="box-image" />
+            <h2 className="box-title">Brochure</h2>
+            <p className="box-description">This is a description of the box content. It can be as long or short as you like.</p>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, x: -10 }}
+            transition={{ duration: 1.5, delay: 0.1 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            className="box">
+            <img src={Discount} alt="Description of image" className="box-image" />
+            <h2 className="box-title">Discount</h2>
+            <p className="box-description">This is a description of the box content. It can be as long or short as you like.</p>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, x: -10 }}
+            transition={{ duration: 1.5, delay: 0.1 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            className="box">
+            <img src={Sales} alt="Description of image" className="box-image" />
+            <h2 className="box-title">Sales Management</h2>
+            <p className="box-description">This is a description of the box content. It can be as long or short as you like.</p>
+          </motion.div>
 
         </div>
       </div>
-      
+
     </>
   )
 }
