@@ -29,7 +29,7 @@ function About() {
          className="flex flex-wrap -m-4 " id="mainABOUT">
           <div className="p-4 lg:w-1/2">
             <div className="lg:items-center lg:justify-center lg:flex h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-              <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/200x200" />
+              <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://www.cnet.com/a/img/resize/ea66ddc9276eef2884da221adc70ed1cf1545951/hub/2021/10/16/11804578-0dbc-42af-bcd1-3bc7b1394962/the-batman-2022-teaser-poster-batman-01-promo.jpg?auto=webp&fit=crop&height=675&width=1200" />
               <div className="flex-grow sm:pl-8">
                 <h2 id="names" className=" title-font font-medium text-lg text-purple-700">Ayush Goswami</h2>
                 <h3 className="text-gray-500 mb-3">Web Developer</h3>
@@ -49,7 +49,7 @@ function About() {
               <div className="flex-grow sm:pl-8">
                 <h2 id="names" className="title-font font-medium text-lg text-purple-700">Jainam Shah </h2>
                 <h3 className="text-gray-500 mb-3">Marketing </h3>
-                <p className="mb-4">Persuing Expertise in Rajkot </p>
+                <p className="mb-4">Marketing </p>
               
               </div>
             </div>
@@ -65,7 +65,7 @@ function About() {
               <div className="flex-grow sm:pl-8">
                 <h2 id="names" className="title-font font-medium text-lg text-purple-700">YashVardhan </h2>
                 <h3 className="text-gray-500 mb-3">Designer</h3>
-                <p className="mb-4">Persuing Expertise in Rajkot </p>
+                <p className="mb-4">Designer </p>
                
               </div>
             </div>
